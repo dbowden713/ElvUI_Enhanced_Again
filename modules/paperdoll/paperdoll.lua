@@ -5,6 +5,7 @@ local find = string.find
 local initialized = false
 local originalInspectFrameUpdateTabs
 local updateTimer
+local IsAddOnLoaded = C_AddOns.IsAddOnLoaded
 
 local slots = {
   ["HeadSlot"] = { true, true },
